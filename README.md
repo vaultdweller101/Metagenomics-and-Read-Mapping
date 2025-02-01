@@ -45,5 +45,5 @@ Change the string value of these two variables in meta.py:
 reference_genomes_directory = "./references"
 reads_file = "./reads.fasta"
 ```
-In this case, reference genomes of 1C are all in the references directory, and the reads file is in the same
+In this case, reference genomes are all in the references directory, and the reads file is in the same
 directory as the meta.py.
