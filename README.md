@@ -24,8 +24,8 @@ To specify which reference file and which reads file to run from, modify refAddr
 
 ```python
 if __name__ == "__main__":
-    refAddress = '.\\project1b-s_reference_genome.fasta'
-    readsAddress = '.\\project1b-s_with_error_paired_reads.fasta'
+    refAddress = '.\\reference_genome.fasta'
+    readsAddress = '.\\with_error_paired_reads.fasta'
 ```
 
 The output should be a predictions.csv within the same directory as the code
@@ -39,7 +39,7 @@ Or press the run button from VS Code
 Change the string value of these two variables in meta.py:
 ```python
 reference_genomes_directory = "./references"
-reads_file = "./project1c_reads.fasta"
+reads_file = "./reads.fasta"
 ```
 In this case, reference genomes of 1C are all in the references directory, and the reads file is in the same
 directory as the meta.py.
