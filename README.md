@@ -30,18 +30,16 @@ if __name__ == "__main__":
 
 The output should be a predictions.csv within the same directory as the code
 
-1. **Run the Project**
-    Run this on the command line
+To run the `meta.py` script, open your command line interface and execute:
     ```sh
     python meta.py
     ```
-    Or press the run button from VS Code
+Or press the run button from VS Code
 
-2. **Modify input**
-    Change the string value of these two variables in meta.py:
-    ```python
-    reference_genomes_directory = "./references"
-    reads_file = "./project1c_reads.fasta"
-    ```
-    In this case, reference genomes of 1C are all in the references directory, and the reads file is in the same
-    directory as the meta.py.
+Change the string value of these two variables in meta.py:
+```python
+reference_genomes_directory = "./references"
+reads_file = "./project1c_reads.fasta"
+```
+In this case, reference genomes of 1C are all in the references directory, and the reads file is in the same
+directory as the meta.py.
