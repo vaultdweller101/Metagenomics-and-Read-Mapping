@@ -1,5 +1,9 @@
 # Metagenomics-and-Read-Mapping
 
+## About
+
+Scripts for DNA Read-mappipng and Metagenomic Analysis
+
 ## Prerequisites
 
 Before running the script, ensure you have the following installed:
